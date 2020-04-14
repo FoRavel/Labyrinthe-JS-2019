@@ -1,0 +1,95 @@
+#GameBoardCanvas, #GameBoardCanvas_adversaire {
+    border: 1px solid red;
+    padding: 5px;
+
+
+    background: black;
+}
+
+#box_gauche{
+  display: flex;
+  flex-direction: column;
+  margin-right: 60px;
+}
+
+#box_droite{
+  display: flex;
+  flex-direction: column;
+  margin-left: 60px;
+}
+
+#box{
+  display: flex;
+  justify-content: center;
+}
+
+#box_bouton{
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+#box_btn_choixJoueur{
+  display: flex;
+
+}
+
+#btn_choix_joueurUn, #btn_choix_joueurDeux{
+  flex: 1;
+}
+
+#btn_rejouer, #btn_choix_joueurUn, #btn_choix_joueurDeux, #btn_nouvellePartie, #btn_accepter, #btn_refuser{
+  padding: 10px;
+}
+
+#btn_nouvellePartie{
+  margin-top: 10px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.bloc{
+  margin: 30px 30px;
+}
+
+.bloc_input{
+  display: flex;
+  flex-direction: column;
+}
+
+#inline{
+  display: flex;
+  flex-direction: row;
+
+  justify-content: center;
+}
+
+#button_connexion, #button_inscription{
+  margin-top: 20px;
+}
+
+#invitation_popUp{
+  box-shadow:0px 0px 10px grey;
+  margin-left: 500px;
+  margin-right: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#box_boutons_invit{
+  display: flex;
+  margin-bottom: 20px;
+}
+
+#regles{
+  border: 1px solid red;
+}
+
+
+body {
+    /*background: black;*/
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
